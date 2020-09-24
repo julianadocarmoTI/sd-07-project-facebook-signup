@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="top-bar">
+        <div class="logo-position">
+            <img class="facebook-logo" src="imgs/facebook-logo.png" alt="logo do facebook">
+        </div>
+        <div class="section-position-right">
+
+            <div class="email-phone">
+                <label id="user-email-phone-label" for="user-email-phone" class="user-email-phone-label">Email ou
+                    telefone</label>
+                <input type="text" id="user-email-phone" name="user-email-phone" class="user-email-phone">
+            </div>
+            <div class="senha-input">
+                <label id="senha-login" class="senha-login">Senha</label>
+                <input type="text" name="senha" class="senha">
+                <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=royal_blue_bar"
+                    class="esqueceu-conta">Esqueceu a conta?</a>
+            </div>
+
+
+            <div class="div-button-login">
+                <button id="button-login" class="button-login">Entrar</button>
+            </div>
+        </div>
+
+    </header>
+    <main class="elements-position">
+        <section class="section-left-main">
+            <p class="p-section-left-main">O Facebook ajuda você a se conectar e <br>compartilhar com as pessoas que
+                fazem parte<br> da sua vida.
+            </p>
+            <img src="imgs/networking.png" alt="imagem de um networking global">
+        </section>
+        <section class="section-right-main">
+            <h1>Abra uma conta</h1>
+            <p>É rápido e fácil.</p>
+            <form action="">
+                <div>
+                    <input type="text" class="nome-sobrenome" name="nome-usuario" placeholder="Nome">
+                    <input type="text" class="nome-sobrenome" name="sobrenome" placeholder="Sobrenome">
+                </div>
+                <div>
+                    <input type="text" class="celular-email-novasenha" name="phone-or-email"
+                        placeholder="Celular ou email">
+                    <input type="text" class="celular-email-novasenha" name="nova-senha" placeholder="Nova senha">
+                </div>
+
+
+
+                <label class="label-div-data-nascimento" for="data-nascimento">Data de nascimento</label>
+                <div class="div-data-nascimento">
+                    <input class="input-data-nascimento" type="date" id="data-nascimento" name="data-nascimento"
+                        placeholder="dd/mm/aaaa">
+                    <img src="image/moreinfo.png" class="image-moreinfo" alt="imagem para mais informações">
+                </div>
+
+
+
+                <label class="genero-label">Gênero</label>
+                <div class="escolha-genero">
+
+                    <input type="radio" name="genero" id="feminino">
+                    <label for="feminino">Feminino</label>
+
+                    <input type="radio" name="genero" id="masculino">
+                    <label for="masculino">Masculino</label>
+
+                    <input type="radio" name="genero" id="personalizado">
+                    <label for="personalizado">Personalizado</label>
+                </div>
+                <div>
+                    <img src="image/moreinfo.png" class="image-moreinfo" alt="">
+                </div>
+                <p class="termos">Ao clicar em Cadastre-se, você concorda com nossos<br> <a
+                        href="https://www.facebook.com/legal/terms/update">Termos</a>, <a
+                        href="https://www.facebook.com/about/privacy/update">Política de Dados</a> e <a
+                        href="https://www.facebook.com/policies/cookies/">Política de Cookies</a>. Você pode<br>
+                    receber notificações por SMS e pode cancelar isso quando<br> quiser.</p>
+                <button type="button" id="facebook-register" class="button-cadastro">Cadastre-se</button>
+            </form>
+            <p class="pagina-empresa-celebridade"><a
+                    href="https://www.facebook.com/pages/create/?ref_type=registration_form">Criar uma Página</a>
+                para uma celebridade, banda ou empresa.</p>
+
+        </section>
+
+
+
+    </main>
+</body>
+
+</html>
