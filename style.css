@@ -1,4 +1,26 @@
+.container-form-data {
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+}
+
+.facebook-login {
+  display: flex;
+  align-items: flex-end;
+}
+
 .top-bar {
+  align-items: center;
   background-color: rgb(66, 103, 178);
   display: flex;
+  justify-content: space-between;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+label {
+  font-weight: 500;
 }
