@@ -11,20 +11,19 @@
     <img src="imgs/facebook-logo.png" class="facebook-logo">
 
     <form action="submit" method="post" class="facebook-login">
-      <div class="container-form-data">
-        <label for="email-phone">Email ou Telefone</label>
-        <input type="text" name="email-phone" id="email-phone">
-      </div>
-
-      <div class="container-form-data">
-        <label for="password">Senha</label>
-        <input type="password" name="password" id="password">
-        <label class="miss-password">Esqueceu a Senha?</label>
-      </div>
-
-      <div class="container-form-data">
-        <input type="button" value="Entrar" class="sign-in">
-      </div>
+        <div class="form-group">
+          <label id="user-email-phone-label" for="user-email-phone">Email ou Telefone</label>
+          <input type="text" name="user-email-phone" id="user-email-phone">
+        </div>
+  
+        <div class="form-group">
+          <label for="user-password" id="user-pasword-label">Senha</label>
+          <input type="password" name="password" id="user-password">
+        </div>
+  
+        <div class="form-control">
+          <button type="submit" class="button-login">Entrar</button>
+        </div>
     </form>
   </div>
 

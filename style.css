@@ -1,12 +1,12 @@
-.container-form-data {
+.form-group {
   color: white;
   display: flex;
   flex-direction: column;
   margin-left: 10px;
 }
 
-.container-form-data:nth-child(3) {
-  align-self: center;
+.form-control {
+  align-self: flex-end;
 }
 
 .facebook-login {
