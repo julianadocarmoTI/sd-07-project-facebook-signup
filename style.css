@@ -4,11 +4,12 @@
   border: 2px solid yellow;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .facebook-login {
   border: 2px solid yellow;
   display: flex;
   justify-content: flex-end;
-  width: 50%;
+  width: 45%;
 }
