@@ -1,12 +1,12 @@
 .container-form-data {
-  color: rgb(255, 255, 255);
+  color: white;
   display: flex;
   flex-direction: column;
 }
 
 .facebook-login {
-  display: flex;
   align-items: flex-end;
+  display: flex;
 }
 
 .top-bar {
@@ -14,6 +14,11 @@
   background-color: rgb(66, 103, 178);
   display: flex;
   justify-content: space-between;
+}
+
+.sign-in {
+  display: flex;
+  align-self: center;
 }
 
 body {
