@@ -2,11 +2,17 @@
   color: white;
   display: flex;
   flex-direction: column;
+  margin-left: 10px;
+}
+
+.container-form-data:nth-child(3) {
+  align-self: center;
 }
 
 .facebook-login {
-  align-items: flex-end;
+  align-items: baseline;
   display: flex;
+  margin-right: 10px;
 }
 
 .top-bar {
@@ -16,9 +22,8 @@
   justify-content: space-between;
 }
 
-.sign-in {
-  display: flex;
-  align-self: center;
+.miss-password {
+  font-size: 12px;
 }
 
 body {
