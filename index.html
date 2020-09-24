@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="top-bar">
+                <img class="facebook-logo" src="facebook-logo.png" alt="facebook">
+                <form class="facebook-login" action="" method="GET">
+                    <div class="form-group">
+                        <label id="user-email-phone-label" for="user-email-phone">Email ou telefone</label>
+                        <input id="user-email-phone" name="user-email-phone-input" type="text" pattern="^([0-9]{9})|([A-Za-z0-9._%\+\-]+@[a-z0-9.\-]+\.[a-z]{2,3})$" title = "Campos inválidos" required="required">
+                    </div>
+                    <div class="form-group">
+                        <label id="user-password-label" for="user-password">Senha</label>
+                        <input id="user-password" name="user-password-input" type="password" pattern="[A-zÀ-ÿ0-9´`~^,\p{P}\p{S} ]{1,}" title = "Campos inválidos" required="required">
+                    </div>
+                    <div class="form-group">
+                        <label for="enter-button"></label>
+                        <input id="button-login" name="enter-button" type="button" onclick="alert(document.getElementById('user-email-phone').value)" value="Entrar">
+                    </div>
+                </form>
+            </div>
+        </header>
+    </body>
+</html>
